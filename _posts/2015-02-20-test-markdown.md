@@ -47,10 +47,10 @@ import pandas as pd
 import numpy as np
 
 def main():
-	df = pd.DataFrame([[1,2,3],[1,2,4]],columns=["A","B","C"])
+df = pd.DataFrame([[1,2,3],[1,2,4]],columns=["A","B","C"])
 
 if __name__=="__main__":
-	main()
+main()
 ```
 
 
