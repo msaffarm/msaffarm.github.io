@@ -42,6 +42,18 @@ var foo = function(x) {
 foo(3)
 ```
 
+```python
+import pandas as pd
+import numpy as np
+
+def main():
+	df = pd.DataFrame([[1,2,3],[1,2,4]],columns=["A","B","C"])
+
+if __name__=="__main__":
+	main()
+```
+
+
 And here is the same code yet again but with line numbers:
 
 {% highlight javascript linenos %}
