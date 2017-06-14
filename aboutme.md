@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Who Am I?
+subtitle: Why you'd want to get in touch with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Mansour Saffar. I'm a data scientist specializing in machine learning  
+and data mining. Currently, I'm CS masters student at [University of Alberta][uofa], one   
+of the best places that you could go to learn **_AI/ML_** in Canada.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
 
-### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+[//]: # This is weired way to put comment in md files! Anyway :)
+
+[uofa]: https://twitter.com/UAlbertaCS
