@@ -273,14 +273,14 @@ ul#nav li.current a { color: #F06000; }
   border-bottom: 1px solid #E8E8E8;
 }
 #work .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
+  font: 16px/24px, serif;
   color: #6E7881;
   margin-bottom: 18px;
-  margin-top: 9px;
+  margin-top: 5px;
 }
 #work .info span {
   margin-right: 5px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 #work .date {
   font: 15px/24px 'opensans-regular', sans-serif;
@@ -324,7 +324,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px, serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
