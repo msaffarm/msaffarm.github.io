@@ -187,23 +187,24 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #f0b629;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: rgb(12, 12, 12);
    margin-bottom: 12px;
 }
 #about p {
+  font: 14px 'opensans-bold', sans-serif;
    line-height: 30px;
-   color: #7A7A7A;
+   color: rgb(12, 12, 12);
 }
 #about .profile-pic {
    position: relative;
@@ -226,7 +227,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: rgb(22, 22, 22);
 }
 #about .download .button:hover {
    background: #fff;
@@ -248,7 +249,7 @@ ul#nav li.current a { color: #F06000; }
   overflow: hidden;
 }
 
-#work a, #work a:visited  { color: #11ABB0; }
+#work a, #work a:visited  { color: #F06000; }
 #work a:hover, #work a:focus { color: #313131; }
 
 #work h1 {
@@ -288,18 +289,71 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
+
+/* ------------------------------------------------------------------ */
+/* d. Publications Section
+/* ------------------------------------------------------------------ */
+
+#publication {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+
+#publication a, #publication a:visited  { color: #F06000; }
+#publication a:hover, #publication a:focus { color: #313131; }
+
+#publication h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#publication h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+#publication h3 {
+  font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#publication .header-col { padding-top: 9px; }
+#publication .main-col { padding-right: 10%; }
+
+.education, .publication {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;
+}
+#publication .info {
+  font: 16px/24px, serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 5px;
+}
+#publication .info span {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+#publication .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  margin-top: 6px;
+}
+
+
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #F06000; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -609,7 +663,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #F06000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -845,21 +899,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #fff;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #F06000; }
+#contact a:hover, #contact a:focus { color: #636363; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: rgb(28, 218, 218);
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -876,7 +930,7 @@ call-to-action .button {
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #636363;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -900,7 +954,7 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
+	color: #636363;
 	background: #373233;
 	margin-bottom: 42px;
 	border: 0;
@@ -912,7 +966,7 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
+	color: #636363;
 	background-color: #11ABB0;
 }
 #contact button.submit {
@@ -929,7 +983,7 @@ call-to-action .button {
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
-	background: #fff;
+	background: #636363;
 }
 #contact span.required {
 	color: #11ABB0;
@@ -984,13 +1038,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #fff;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #F06000; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1059,5 +1113,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #f0b629; }
 
